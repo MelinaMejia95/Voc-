@@ -1,0 +1,14 @@
+.background{
+    background-color: #2f393f;
+    height: 6em;
+}
+
+.nav-height{
+    height: 5em;
+}
+
+.nav-img{
+    width: 3em;
+    height: 3em;
+    margin-left: 110%;
+}

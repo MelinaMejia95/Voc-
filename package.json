@@ -1,0 +1,24 @@
+{
+  "name": "voce",
+  "version": "1.0.0",
+  "description": "Website for Vocé team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelinaMejia95/Voce-.git"
+  },
+  "keywords": [
+    "Voce",
+    "website",
+    "qualtrics"
+  ],
+  "author": "Voce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MelinaMejia95/Voce-/issues"
+  },
+  "homepage": "https://github.com/MelinaMejia95/Voce-#readme"
+}

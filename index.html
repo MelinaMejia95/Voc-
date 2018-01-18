@@ -11,17 +11,18 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+    <!-- Navbar -->
     <div class="navbar-fixed">
         <nav class="background">
             <div class="nav-wrapper nav-height">
             <a href="#" class="brand-logo"><img class="nav-img" src="./img/Logo-blanco-01.png"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="white-text" href="sass.html">Filosofía</a></li>
-                <li><a class="white-text" href="badges.html">Servicios</a></li>
-                <li><a class="white-text" href="collapsible.html"></a></li>
-                <li><a class="white-text" href="collapsible.html">Equipo</a></li>
-                <li><a class="white-text" href="collapsible.html">Contacto</a></li>
+            <ul id="nav-mobile" class="right hide-on-med-and-down center-ul">
+                <li class="li-selected"><a class="white-text" href="sass.html">Filosofía</a></li>
+                <li class="li-selected"><a class="white-text" href="badges.html">Servicios</a></li>
+                <li class="li-selected"><a class="white-text" href="collapsible.html"></a></li>
+                <li class="li-selected"><a class="white-text" href="collapsible.html">Equipo</a></li>
+                <li class="li-selected"><a class="white-text" href="collapsible.html">Contacto</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
                 <li><a class="white-text" href="sass.html">Filosofía</a></li>
@@ -33,6 +34,109 @@
             </div>
         </nav>
     </div>
+
+    <!-- Slider -->
+    <div class="slider" style="height: 27em;">
+        <ul class="slides">
+            <li>
+            <img src="./img/road.jpg"> <!-- random image -->
+            <div class="caption center-align">
+                <h4 class="h3-title">"Nadie se convierte en un <b>líder</b> de la industría sin escuchar primero al <b>cliente</b>"</h4>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+            </li>
+            <li>
+            <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+            <div class="caption left-align">
+                <h3>Left Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+            </li>
+            <li>
+            <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+            <div class="caption right-align">
+                <h3>Right Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+            </li>
+            <li>
+            <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+            <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ADN -->
+    <div class="background-adn">
+        <div class="row">
+            <div class="col s6 m4 l2">
+                <img src="./img/1.png">
+            </div>
+            <div class="col s6 m4 l2">
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     At delectus architecto facilis nobis inventore, consectetur consequatur velit similique ad. 
+                     Repellat illum similique enim eligendi, alias cumque, reiciendis inventore expedita deleniti.<br />
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                     Quibusdam harum, ipsa ducimus, omnis error dolorum nemo suscipit. 
+                     Recusandae velit doloribus quae expedita provident, vel consequuntur. 
+                     Nemo ullam reiciendis voluptatem eius.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 s12">
+                    <h5 class="white-text">Encuéntranos</h5>
+                    <ul>
+                        <li><p class="footer-find-us grey-text text-lighten-3 leelawadee">Tel. (57-4) 322-44-69</p></li>
+                        <li><p class="footer-find-us grey-text text-lighten-3 leelawadee">Cra 48 # 20 -103. Segundo Piso</p></li>
+                        <li><p class="footer-find-us grey-text text-lighten-3 leelawadee">Medellín - Colombia</p></li>
+                    </ul>
+                </div>
+                <div class="col l6 offset-l2 s12">
+                    <h5 class="white-text center">Contáctanos</h5>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">person</i>
+                                    <input id="nombre" type="text" class="validate">
+                                    <label for="nombre">Nombre</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">message</i>
+                                    <textarea id="mensaje" class="materialize-textarea"></textarea>
+                                    <label for="mensaje">Mensaje</label>
+                                </div>
+                            </div>
+                            <div class="row center">
+                                <button class="waves-effect waves-light btn btn-enviar">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            Hecho con ♥ en Medellín © 2017
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <!-- Compiled and minified JavaScript -->

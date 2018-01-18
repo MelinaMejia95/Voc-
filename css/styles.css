@@ -12,3 +12,64 @@
     height: 3em;
     margin-left: 110%;
 }
+
+.center-ul{
+    margin-top: 0.8em;
+}
+
+.li-selected:hover, .li-selected:active {
+    list-style-type: none;
+    height: 4em;
+    border-bottom: 7px solid;
+    border-bottom-color: #d8d9de;
+}
+
+.h3-title{
+    color: #c22626
+}
+
+.slider .indicators .indicator-item {
+    background-color: #666666;
+    border: 3px solid #ffffff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+.slider .indicators .indicator-item.active {
+    background-color: #ffffff;
+}
+
+.slider .indicators {
+    bottom: 53px;
+    display: none
+/* text-align: left; */
+}
+
+.page-footer{
+    background-image: url("./../img/texturas-03.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position:relative;
+    background-size: cover;
+    margin: 0 0 !important;
+}
+
+.btn-enviar{
+    background-color: #c22626 !important;
+}
+
+.input-field input[type=text]:focus + label {
+    color: white;
+}
+
+.background-adn{
+    background-image: url("./../img/texturas-05.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position:relative;
+    background-size: cover;
+    margin: 0 0 !important;
+}

@@ -1,3 +1,30 @@
+/* Import fonts */
+@font-face {
+    font-family: 'Qualtrics Grotesque';
+    src: url('../fonts/QualtricsGrotesque/QualtricsGrotesque-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Qualtrics Grotesque';
+    src: url('../fonts/QualtricsGrotesque/QualtricsGrotesque-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'FreightSans Pro';
+    src: url('../fonts/Freight-Sans-Pro-Family/GarageFonts - FreightSans Pro Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FreightSans Pro';
+    src: url('../fonts/Freight-Sans-Pro-Family/GarageFonts - FreightSans Pro Bold.otf') format('truetype');
+    font-weight: bold;
+}
+
+html, body{
+    font-family: 'FreightSans Pro', Helvetica;
+}
+
 .background{
     background-color: #2f393f;
     height: 6em;
@@ -15,6 +42,10 @@
 
 .center-ul{
     margin-top: 0.8em;
+}
+
+.li-text{
+    font-size: 19px;
 }
 
 .li-selected:hover, .li-selected:active {
@@ -72,4 +103,39 @@
     position:relative;
     background-size: cover;
     margin: 0 0 !important;
+}
+
+.img-filosofia{
+    margin-left: 117%;
+}
+
+.span-filosofia{
+    margin-left: 36% !important;
+    font-size: 19px;
+    text-align: center;
+    padding: 0 !important;
+    width: 29% !important;
+}
+
+.background-servicios{
+    background-image: url("./../img/texturas-02.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position:relative;
+    background-size: cover;
+    margin: 0 0 !important;
+}
+
+.servicios-title{
+    background-color: red;
+    color: white;
+    height: 3em;
+    text-align: center;
+    width: 11em;
+    border: 2px solid;
+    border-radius: 11px;
+    border-color: white;
+    z-index: 1;
+    margin: auto;
 }

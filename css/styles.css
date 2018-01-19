@@ -204,14 +204,20 @@ html, body{
 }
 
 .wrapperTitle.serviciosTitle {
-    margin-top: 0rem;
-    margin-bottom: -1rem;
+    margin-top: -3rem;
+    margin-bottom: -2rem;
     z-index: 60;
 }
 
 .wrapperTitle.clientesTitle {
-    margin-top: -3rem;
+    margin-top: -4rem;
     margin-bottom: -1rem;
+    z-index: 60;
+}
+
+.wrapperTitle.equipoTitle {
+    margin-top: -2rem;
+    margin-bottom: -2rem;
     z-index: 60;
 }
 
@@ -234,7 +240,7 @@ html, body{
 }
 
 .q-colombia{
-    margin-bottom: 4em !important;
+    /*margin-bottom: 4em !important;*/
     margin-top: 2em;
 }
 
@@ -319,7 +325,10 @@ html, body{
     line-height: 1.7em;
 }
 
-.img-colombia {
-    /*width: 300px;
-    height: 300px;*/
+.parallax-container {
+    height: 200px !important;
+  }
+
+.service-row {
+    margin-bottom: 0 !important;
 }

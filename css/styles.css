@@ -118,7 +118,8 @@ html, body{
 }
 
 .background-servicios{
-    background-image: url("./../img/texturas-02.jpg");
+    /*background-image: url("./../img/texturas-02.jpg");*/
+    background-color: #5b5c5c !important;
     background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -127,8 +128,8 @@ html, body{
     margin: 0 0 !important;
 }
 
-.servicios-title{
-    background-color: red;
+.servicios-title, .clientes-title{
+    background-color: #c42625;
     color: white;
     height: 3em;
     text-align: center;
@@ -138,4 +139,144 @@ html, body{
     border-color: white;
     z-index: 1;
     margin: auto;
+}
+
+.swipe-servicios {
+    height: 30em;
+}
+
+#test-swipe-1{
+    background-color: #f9f8f8;
+    height: 20em;
+}
+#test-swipe-2{
+    background-color: #f9f8f8;
+    height: 20em;
+}
+#test-swipe-4{
+    background-color: #f9f8f8;
+    height: 20em;
+}
+#test-swipe-3{
+    background-color: #f9f8f8;
+    height: 20em;
+}
+.tabs-content {
+    height: 20em !important;
+}
+.tabs .tab a{
+    color: #fbfafa !important
+}
+.tab a:hover, .tabs .tab a.active {
+    background-color: transparent !important;
+    color: white !important;
+    border-bottom: 4px solid;
+    border-bottom-color: white
+}
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: transparent !important;
+    will-change: left, right;
+}
+
+.wrapperTitle {
+    margin-bottom: -5rem;
+    position: relative;
+    text-align: center;
+    z-index: 30;
+}
+
+.wrapperTitle.serviciosTitle {
+    margin-top: 0rem;
+    margin-bottom: -1rem;
+    z-index: 60;
+}
+
+.wrapperTitle.clientesTitle {
+    margin-top: -3rem;
+    margin-bottom: -1rem;
+    z-index: 60;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.first-img, .second-img, .third-img, .fourth-img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.first-img:hover, .second-img:hover, .third-img:hover, .fourth-img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.q-colombia{
+    margin-bottom: 4em !important;
+    margin-top: 2em;
+}
+
+.item-colombia{
+    text-align: center;
+}
+
+.item-mundo{
+    margin-top: 2em !important;
+    text-align: center;
+}
+
+.q-line{
+    height: 5px;
+    z-index: -1;
+    margin-top: 4em;
+    margin-bottom: -2em;
+    background-color: #2f393f;
+}
+
+.last-img{
+    padding-bottom: 1.5em;
+}
+
+.background-equipo{
+    background-image: url("./../img/texturas-02.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position:relative;
+    background-size: cover;
+    margin: 0 0 !important;
+}
+
+.img-team{
+    width: 18em;
+    height: 18em;
+    margin-left: 2em;
+}
+
+.team-row{
+    padding: 3em;
+    text-align: center;
+}
+
+.first-img{
+    margin-left: 0 !important;
+}
+
+.img-footer{
+    width: 220px;
+    height: 220px;
+    border-radius: 1em;
+}
+
+.footer-mail {
+    background-color: red;
+    opacity: 0.5;
+    z-index: -1;
 }

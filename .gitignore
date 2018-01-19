@@ -1,7 +1,5 @@
 /node_modules
-
-#Ignore these directories
-img
+/img/
 
 ### Images ###
 # JPEG

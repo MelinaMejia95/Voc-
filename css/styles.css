@@ -128,12 +128,27 @@ html, body{
     margin: 0 0 !important;
 }
 
-.servicios-title, .clientes-title{
+.clientes-title{
     background-color: #c42625;
     color: white;
-    height: 3em;
+    height: 4em;
+    font-weight: bold;
     text-align: center;
-    width: 11em;
+    width: 26em;
+    border: 2px solid;
+    border-radius: 11px;
+    border-color: white;
+    z-index: 1;
+    margin: auto;
+}
+
+.servicios-title{
+    background-color: #c42625;
+    color: white;
+    height: 4em;
+    font-weight: bold;
+    text-align: center;
+    width: 13em;
     border: 2px solid;
     border-radius: 11px;
     border-color: white;
@@ -262,6 +277,13 @@ html, body{
 
 .team-row{
     padding: 3em;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+.linked-row {
+    padding-top: 1em;
     text-align: center;
 }
 
@@ -279,4 +301,25 @@ html, body{
     background-color: red;
     opacity: 0.5;
     z-index: -1;
+}
+
+.img-linked {
+    width: 2em;
+    height: 2em;
+    /*margin-left: 1em;*/
+}
+
+.serv, .team {
+    font-size: 2em;
+    line-height: 1.7em;
+}
+
+.q-col, .q-world {
+    font-size: 2em;
+    line-height: 1.7em;
+}
+
+.img-colombia {
+    /*width: 300px;
+    height: 300px;*/
 }

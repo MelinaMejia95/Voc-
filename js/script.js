@@ -1,6 +1,10 @@
 $(document).ready(function()  {
     $(".button-collapse").sideNav();
-    $('.slider').slider();
+    $('.slider').slider({
+        indicators: 'false',
+        transition: 600,
+        interval: 4000
+    });
     $('ul.tabs').tabs({
         swipeable: 'true'
     });

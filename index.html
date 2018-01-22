@@ -18,18 +18,17 @@
             <a href="#" class="brand-logo"><img class="nav-img" src="./img/Logo-blanco-01.png"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down center-ul">
-                <li class="li-selected"><a class="white-text li-text li-text" href="sass.html">Nuestro ADN</a></li>
-                <li class="li-selected"><a class="white-text li-text" href="badges.html">Servicios</a></li>
-                <li class="li-selected"><a class="white-text li-text" href="badges.html">Clientes</a></li>
-                <li class="li-selected"><a class="white-text li-text" href="collapsible.html"></a></li>
-                <li class="li-selected"><a class="white-text li-text" href="collapsible.html">Equipo</a></li>
-                <li class="li-selected"><a class="white-text li-text" href="collapsible.html">Contacto</a></li>
+                <li class="li-selected" id="adn"><a class="white-text li-text li-text" href="sass.html">Nuestro ADN</a></li>
+                <li class="li-selected" id="nosotros"><a class="white-text li-text li-text" href="sass.html">Quiénes somos</a></li>
+                <li class="li-selected" id="servicios"><a class="white-text li-text" href="badges.html">Servicios</a></li>
+                <li class="li-selected" id="clientes"><a class="white-text li-text" href="badges.html">Clientes</a></li>
+                <li class="li-selected" id="equipo"><a class="white-text li-text" href="collapsible.html">Equipo</a></li>
+                <li class="li-selected" id="contacto"><a class="white-text li-text" href="collapsible.html">Contacto</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
                 <li><a class="white-text li-text" href="sass.html">Nuestro ADN</a></li>
                 <li><a class="white-text li-text" href="badges.html">Servicios</a></li>
                 <li><a class="white-text li-text" href="badges.html">Clientes</a></li>
-                <li><a class="white-text li-text" href="collapsible.html"></a></li>
                 <li><a class="white-text li-text" href="collapsible.html">Equipo</a></li>
                 <li><a class="white-text li-text" href="collapsible.html">Contacto</a></li>
             </ul>
@@ -41,28 +40,28 @@
     <div class="slider" style="height: 27em;">
         <ul class="slides">
             <li>
-            <img src="./img/road.jpg"> <!-- random image -->
+            <img src="./img/slide1.jpeg"> <!-- random image -->
             <div class="caption center-align">
                 <h4 class="h3-title">"Nadie se convierte en un <b>líder</b> de la industría sin escuchar primero al <b>cliente</b>"</h4>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
             </li>
             <li>
-            <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+            <img src="./img/slide2.jpg"> <!-- random image -->
             <div class="caption left-align">
                 <h3>Left Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
             </li>
             <li>
-            <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+            <img src="./img/slide4.jpeg"> <!-- random image -->
             <div class="caption right-align">
                 <h3>Right Aligned Caption</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
             </div>
             </li>
             <li>
-            <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+            <img src="./img/slide5.jpeg"> <!-- random image -->
             <div class="caption center-align">
                 <h3>This is our big Tagline!</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -95,6 +94,36 @@
     </div>
 
     <!-- Titulo Servicios -->
+    <div class="wrapperTitle nosotrosTitle">
+        <div class="nosotros-title">
+            <span class="white-text serv">QUIENES SOMOS</span>
+        </div>
+    </div>
+
+    <!-- Quienes somos -->
+    <div class="nosotros">
+        <div class="row">
+            <div class="col s6 m4 l2">
+                <img class="img-filosofia" src="./img/1.png">
+            </div>
+            <div class="col s6 m4 l2 span-filosofia">
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     At delectus architecto facilis nobis inventore, consectetur consequatur velit similique ad. 
+                     Repellat illum similique enim eligendi, alias cumque, reiciendis inventore expedita deleniti.
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                     Quibusdam harum, ipsa ducimus, omnis error dolorum nemo suscipit. 
+                     Recusandae velit doloribus quae expedita provident, vel consequuntur. 
+                     Nemo ullam reiciendis voluptatem eius.</span>
+            </div>
+        </div>
+    </div>
+
+     <!-- Parallax -->
+     <div class="parallax-container">
+        <div class="parallax"><img src="./img/road.jpg"></div>
+    </div>
+
+    <!-- Titulo Servicios -->
     <div class="wrapperTitle serviciosTitle">
         <div class="servicios-title">
             <span class="white-text serv">SERVICIOS</span>
@@ -123,11 +152,11 @@
     </div>
 
     
-         <!-- Titulo Clientes -->
-     <div class="wrapperTitle clientesTitle">
+    <!-- Titulo Clientes -->
+    <div class="wrapperTitle clientesTitle">
         <div class="q-line z-depth-4"></div>
         <div class="clientes-title">
-            <span class="white-text q-col">QUALTRICS EN COLOMBIA</span>
+            <span class="white-text q-col">COLOMBIA</span>
         </div>
     </div>
     
@@ -160,7 +189,7 @@
      <div class="wrapperTitle clientesTitle">
         <div class="q-line z-depth-4"></div>
         <div class="clientes-title">
-            <span class="white-text q-world">QUALTRICS EN EL MUNDO</span>
+            <span class="white-text q-world">EL MUNDO</span>
         </div>
     </div>
 

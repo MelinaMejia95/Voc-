@@ -134,7 +134,7 @@ html, body{
     height: 4em;
     font-weight: bold;
     text-align: center;
-    width: 26em;
+    width: 13em;
     border: 2px solid;
     border-radius: 11px;
     border-color: white;
@@ -149,6 +149,21 @@ html, body{
     font-weight: bold;
     text-align: center;
     width: 13em;
+    border: 2px solid;
+    border-radius: 11px;
+    border-color: white;
+    z-index: 1;
+    margin: auto;
+}
+
+
+.nosotros-title{
+    background-color: #c42625;
+    color: white;
+    height: 4em;
+    font-weight: bold;
+    text-align: center;
+    width: 19em;
     border: 2px solid;
     border-radius: 11px;
     border-color: white;
@@ -201,6 +216,12 @@ html, body{
     position: relative;
     text-align: center;
     z-index: 30;
+}
+
+.wrapperTitle.nosotrosTitle{
+    margin-top: -3rem;
+    margin-bottom: -2rem;
+    z-index: 60;
 }
 
 .wrapperTitle.serviciosTitle {
@@ -331,4 +352,31 @@ html, body{
 
 .service-row {
     margin-bottom: 0 !important;
+}
+
+/* label color */
+.input-field label {
+    color: white !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: white !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=email]:focus {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+ /* icon prefix focus color */
+.input-field .prefix.active {
+    color: white !important;
+}
+
+textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+
+.nosotros {
+    background-color: white;
 }

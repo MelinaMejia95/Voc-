@@ -83,7 +83,8 @@ html, body{
 }
 
 .page-footer{
-    background-image: url("./../img/texturas-03.jpg");
+    /*background-image: url("./../img/texturas-03.jpg");*/
+    background-color: #5b5c5c !important;
     background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -92,8 +93,12 @@ html, body{
     margin: 0 0 !important;
 }
 
+.page-footer .footer-copyright{
+    background-color: #2f393f5c !important;
+}
+
 .btn-enviar{
-    background-color: #c22626 !important;
+    background-color: #c42626 !important;
 }
 
 .input-field input[type=text]:focus + label {
@@ -301,17 +306,117 @@ html, body{
     margin: 0 0 !important;
 }
 
-.img-team{
+.principal-row{
+    text-align: center;
+}
+
+
+.team-row img, .team-row2 img, .team-row3 img, .team-row4 img{
     width: 18em;
     height: 18em;
     margin-left: 2em;
 }
 
-.team-row{
-    padding: 3em;
+.team-row:hover img, .team-row2:hover img, .team-row3:hover img, .team-row4:hover img{
+    filter:brightness(60%);
+}
+
+.team-row :not(img){
+    position:absolute;
+    z-index:1;
+    /*top:30%;*/
+    margin-top: 3em;
+    margin-left: 3%;
+    /*width:100%;*/
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+}
+
+.team-row2 :not(img){
+    position:absolute;
+    z-index:1;
+    /*top:30%;*/
+    margin-top: 3em;
+    margin-left: 3.8%;
+    /*width:100%;*/
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+}
+
+.team-row3 :not(img){
+    position:absolute;
+    z-index:1;
+    /*top:30%;*/
+    margin-top: 3em;
+    margin-left: 5.5%;
+    /*width:100%;*/
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+}
+
+.team-row4 :not(img){
+    position:absolute;
+    z-index:1;
+    /*top:30%;*/
+    margin-top: 3em;
+    margin-left: 6%;
+    /*width:100%;*/
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+}
+
+.team-row h2, .team-row2 h2, .team-row3 h2, .team-row4 h2{
+    top:18%;
+    font-size: 1.5em;
+  }
+  
+.team-row:hover :not(img), .team-row2:hover :not(img), .team-row3:hover :not(img), .team-row4:hover :not(img){
+    opacity:1;
+}
+
+/*.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+.team-row:hover .overlay {
+    opacity: 1;
+}   
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }*/
+
+.team-row, .team-row2, .team-row3, .team-row4 {
+    padding-top: 4em;
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
     text-align: center;
+    display: inline-block;
+    transition:.3s;
 }
 
 .linked-row {
@@ -384,4 +489,21 @@ textarea.materialize-textarea:focus:not([readonly]){
 
 .nosotros {
     background-color: white;
+}
+
+.btn-demo{
+    border-radius: 2em !important;
+    margin-left: 1em;
+    background-color: #dad9d7 !important;
+    color: black !important;
+}
+
+.btn-demo:hover, .btn-demo:active {
+    background-color: white !important;
+    color: red !important;
+}
+
+.demo-title{
+    font-size: 1.5em;
+    vertical-align: middle;
 }

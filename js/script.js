@@ -54,4 +54,40 @@ $(document).ready(function()  {
             $('#contacto').css({'border-bottom': '7px solid', 'border-bottom-color': '#d8d9de', 'height': '4em'});
         } 
       }); 
+
+    $("#adn").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#show-adn").offset().top},
+            'slow');
+    });
+
+    $("#nosotros").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#show-nosotros").offset().top},
+            'slow');
+    });
+
+    $("#servicios").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#show-servicios").offset().top},
+            'slow');
+    });
+
+    $("#clientes").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#show-colombia").offset().top},
+            'slow');
+    });
+
+    $("#equipo").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#show-equipo").offset().top},
+            'slow');
+    });
+
+    $("#contacto").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#show-contacto").offset().top},
+            'slow');
+    });
 });  

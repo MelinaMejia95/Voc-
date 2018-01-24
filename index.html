@@ -18,19 +18,34 @@
             <a href="#" class="brand-logo"><img class="nav-img" src="./img/Logo-blanco-01.png"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down center-ul">
-                <li class="li-selected" id="adn"><a class="white-text li-text li-text" href="#show-adn">Nuestro ADN</a></li>
-                <li class="li-selected" id="nosotros"><a class="white-text li-text li-text" href="#show-nosotros">Quiénes somos</a></li>
-                <li class="li-selected" id="servicios"><a class="white-text li-text" href="#show-servicios">Servicios</a></li>
-                <li class="li-selected" id="clientes"><a class="white-text li-text" href="#show-colombia">Clientes</a></li>
-                <li class="li-selected" id="equipo"><a class="white-text li-text" href="#show-equipo">Equipo</a></li>
-                <li class="li-selected" id="contacto"><a class="white-text li-text" href="#show-contacto">Contacto</a></li>
+                <li class="li-selected" id="adn" ><a class="white-text li-text li-text" href="#show-adn" data-language="adn">Nuestro ADN</a></li>
+                <li class="li-selected" id="nosotros"><a class="white-text li-text li-text" href="#show-nosotros" data-language="we">Quiénes somos</a></li>
+                <li class="li-selected" id="servicios"><a class="white-text li-text" href="#show-servicios" data-language="services">Servicios</a></li>
+                <li class="li-selected" id="clientes"><a class="white-text li-text" href="#show-colombia" data-language="clients">Clientes</a></li>
+                <li class="li-selected" id="equipo"><a class="white-text li-text" href="#show-equipo" data-language="team">Equipo</a></li>
+                <li class="li-selected li-last" id="contacto"><a class="white-text li-text" href="#show-contacto" data-language="contact">Contacto</a></li>
+                <li class="btn-group li-flags">
+                    <div class="row flags-row">
+                        <input value="en" type="radio" name="rdb_language" id="optionEN" checked>
+                        <label for="optionEN">
+                            <img class="flags" src="./img/flag-us.svg" alt="Flag USA">
+                        </label>
+                    </div>
+                    <div class="row flags-row">
+                        <input value="es" type="radio" name="rdb_language" id="optionES">
+                        <label for="optionES">
+                            <img class="flags" src="./img/flag-es.svg" alt="Flag Spain">
+                        </label>
+                    </div>  
+                </li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
-                <li><a class="white-text li-text" href="sass.html">Nuestro ADN</a></li>
-                <li><a class="white-text li-text" href="badges.html">Servicios</a></li>
-                <li><a class="white-text li-text" href="badges.html">Clientes</a></li>
-                <li><a class="white-text li-text" href="collapsible.html">Equipo</a></li>
-                <li><a class="white-text li-text" href="collapsible.html">Contacto</a></li>
+                <li><a class="white-text li-text" href="#show-adn" data-language="adn">Nuestro ADN</a></li>
+                <li><a class="white-text li-text" href="#show-nosotros" data-language="we">Quiénes somos</a></li>
+                <li><a class="white-text li-text" href="#show-servicios" data-language="services">Servicios</a></li>
+                <li><a class="white-text li-text" href="#show-colombia" data-language="clients">Clientes</a></li>
+                <li><a class="white-text li-text" href="#show-equipo" data-language="team">Equipo</a></li>
+                <li><a class="white-text li-text" href="#show-contacto" data-language="contact">Contacto</a></li>
             </ul>
             </div>
         </nav>
@@ -42,25 +57,25 @@
             <li>
             <img src="./img/slide1.jpg"> <!-- random image -->
             <div class="caption center-align">
-                <h4 class="h3-title">Convierte los empleados en embajadores</h4>
+                <h4 class="h3-title" data-language="qualtrics1">"Convertir empleados en embajadores"</h4>
             </div>
             </li>
             <li>
             <img src="./img/slide2.jpg"> <!-- random image -->
             <div class="caption left-align">
-                <h3 class="h3-title">Convierte una marca en una religión</h3>
+                <h3 class="h3-title" data-language="qualtrics2">"Convertir marcas en íconos"</h3>
             </div>
             </li>
             <li>
             <img src="./img/slide4.jpg"> <!-- random image -->
             <div class="caption right-align">
-                <h3 class="h3-title">Convierte los clientes en fanáticos</h3>
+                <h3 class="h3-title" data-language="qualtrics3">"Convertir consumidores en fanáticos"</h3>
             </div>
             </li>
             <li>
             <img src="./img/slide5.jpeg"> <!-- random image -->
             <div class="caption center-align">
-                <h3 class="h3-title">Convierte un producto en una obsesión</h3>
+                <h3 class="h3-title" data-language="qualtrics4">"Convertir productos en obsesiones"</h3>
             </div>
             </li>
         </ul>
@@ -73,13 +88,19 @@
                 <img class="img-filosofia" src="./img/1.png">
             </div>
             <div class="col s6 m4 l2 span-filosofia">
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     At delectus architecto facilis nobis inventore, consectetur consequatur velit similique ad. 
-                     Repellat illum similique enim eligendi, alias cumque, reiciendis inventore expedita deleniti.
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                     Quibusdam harum, ipsa ducimus, omnis error dolorum nemo suscipit. 
-                     Recusandae velit doloribus quae expedita provident, vel consequuntur. 
-                     Nemo ullam reiciendis voluptatem eius.</span>
+                <span data-language="adn-text">En tiempos de BIG DATA, 
+                        tener la data ya no es suficiente
+                        
+                        Ir tras los Insights detrás 
+                        de la data, las emociones 
+                        detrás de los indicadores 
+                        y poder tener acción y 
+                        gestión en tiempo real, 
+                        es lo que hoy 
+                        GENERA DIFERENCIA.
+                        
+                        En VOCÉ te ayudamos a saber exactamente donde debes actuar, para que puedas rediseñar procesos que generen experiencias memorables en tus clientes y colaboradores.
+                        </span>
             </div>
         </div>
     </div>
@@ -92,24 +113,28 @@
     <!-- Titulo Servicios -->
     <div class="wrapperTitle nosotrosTitle">
         <div class="nosotros-title">
-            <span class="white-text serv">QUIENES SOMOS</span>
+            <span class="white-text serv" data-language="who">QUIENES SOMOS</span>
         </div>
     </div>
 
     <!-- Quienes somos -->
     <div class="nosotros">
-        <div class="row">
-            <div class="col s6 m4 l2">
-                <img class="img-filosofia" src="./img/1.png">
+        <div class="row col s12">
+            <div class="col s4 m4 l2 img-voce">
+                <img src="./img/voce.png" alt="" class="voce">
             </div>
-            <div class="col s6 m4 l2 span-filosofia">
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     At delectus architecto facilis nobis inventore, consectetur consequatur velit similique ad. 
-                     Repellat illum similique enim eligendi, alias cumque, reiciendis inventore expedita deleniti.
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                     Quibusdam harum, ipsa ducimus, omnis error dolorum nemo suscipit. 
-                     Recusandae velit doloribus quae expedita provident, vel consequuntur. 
-                     Nemo ullam reiciendis voluptatem eius.</span>
+            <div class="col s4 span-text">
+                <span data-language="we-are-voce" class="span-voce">
+                    Contamos con todo el entrenamiento y trayectoria de Qualtrics, y sumamos a cada proyecto, profesionales locales con amplia experiencia en cada caso de consultoría requerido en cualquiera de los proyectos de clientes (Experiencia de clientes, Experiencia de empleados, Experiencia de marca o Experiencia de producto) Nuestra sucursal principal está ubicada en Medellín, pero contamos con la Capacidad para movernos en todo el territorio Latinoamericano.
+            </span>
+            </div>
+            <div class="col s4 m4 l2 ">
+                <img src="./img/qualtrics.png" alt="" class="q-img">
+            </div>
+            <div class="col s4">
+                <span data-language="we-are-qualtrics" class="span-voce">Qualtrics es la empresa líder mundial en medición de Insights de clientes, empleados y mercados.
+                    Creada desde el 2002, nació como un software para medición de investigación de mercados, y hoy se convierte en la solución líder en gestionar toda la experiencia, ayudando a las organizaciones a crear y poner en marcha sus programas de experiencia desde la visión de la marca, los clientes, los productos o servicios y los empleados.
+            </span>
             </div>
         </div>
     </div>
@@ -122,7 +147,7 @@
     <!-- Titulo Servicios -->
     <div class="wrapperTitle serviciosTitle" >
         <div class="servicios-title">
-            <span class="white-text serv">SERVICIOS</span>
+            <span class="white-text serv" data-language="serv">SERVICIOS</span>
         </div>
     </div>
    
@@ -130,15 +155,55 @@
     <div>
         <div class="row service-row">    
             <ul id="tabs-swipe-demo" class="tabs background-servicios">
-                <li class="tab col s3 swipe-text"><a class="active" href="#test-swipe-1">CLIENTE</a></li>
-                <li class="tab col s3"><a href="#test-swipe-2">EMPLEADO</a></li>
-                <li class="tab col s3"><a href="#test-swipe-3">MARCA</a></li>
-                <li class="tab col s3"><a href="#test-swipe-4">PRODUCTO</a></li>
+                <li class="tab col s3 swipe-text"><a class="active" href="#test-swipe-1" data-language="serv1">CLIENTE</a></li>
+                <li class="tab col s3"><a href="#test-swipe-2" data-language="serv2">EMPLEADO</a></li>
+                <li class="tab col s3"><a href="#test-swipe-3" data-language="serv3">MARCA</a></li>
+                <li class="tab col s3"><a href="#test-swipe-4" data-language="serv4">PRODUCTO</a></li>
             </ul>
-            <div id="test-swipe-1" class="col s12 swipe-servicios">THIS IS A TEST</div>
-            <div id="test-swipe-2" class="col s12 swipe-servicios">THIS IS A TEST</div>
-            <div id="test-swipe-3" class="col s12 swipe-servicios">THIS IS A TEST</div>
-            <div id="test-swipe-4" class="col s12 swipe-servicios">THIS IS A TEST</div>
+            <div id="test-swipe-1" class="col s12 swipe-servicios">
+                <div class="row">
+                    <div class="col s6">
+                            <img src="./img/cx.png" alt="" class="img-swipe">
+                    </div>
+                    <div class="col s6 swipe-col">
+                        <span class="swipe-text" data-language="cx">Crea una gran lealtad de marca preguntando acerca de las experiencias, preferencias y expectativas de tus clientes y actuando basado en esa retroalimentación  
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div id="test-swipe-2" class="col s12 swipe-servicios">
+                <div class="row">
+                    <div class="col s6">
+                            <img src="./img/ex.png" alt="" class="img-swipe">
+                    </div>
+                    <div class="col s6 swipe-col-ex">
+                        <span class="swipe-text" data-language="ex">Mida el sentimiento de los empleados en todo su ciclo laboral, priorice los motivos claves basado en la experiencia del empleado, incremente la productividad a través del compromiso del empleado y construya equipos fuertes.
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div id="test-swipe-3" class="col s12 swipe-servicios">
+                <div class="row">
+                    <div class="col s6">
+                            <img src="./img/bx.png" alt="" class="img-swipe">
+                    </div>
+                    <div class="col s6 swipe-col">
+                        <span class="swipe-text" data-language="bx">Crea un “benchmarking” y rastree el conocimiento de su marca, valor, y percepciones, mejore la publicidad de su marca y optimice la estrategia de marca. 
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div id="test-swipe-4" class="col s12 swipe-servicios">
+                <div class="row">
+                    <div class="col s6">
+                            <img src="./img/px.png" alt="" class="img-swipe">
+                    </div>
+                    <div class="col s6 swipe-col">
+                        <span class="swipe-text" data-language="px">Descubra necesidades insatisfechas del producto, priorice características del producto, mida la experiencia del usuario, y pronostique  adopción del mercado y uso
+                            </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -185,7 +250,7 @@
      <div class="wrapperTitle clientesTitle" id="show-mundo">
         <div class="q-line z-depth-4"></div>
         <div class="clientes-title">
-            <span class="white-text q-world">EL MUNDO</span>
+            <span class="white-text q-world" data-language="world">EL MUNDO</span>
         </div>
     </div>
 
@@ -206,7 +271,7 @@
     <!-- Titulo Equipo -->
     <div class="wrapperTitle equipoTitle">
         <div class="servicios-title">
-            <span class="white-text team">EQUIPO</span>
+            <span class="white-text team" data-language="team-title">EQUIPO</span>
         </div>
     </div>
 
@@ -214,29 +279,52 @@
     <div class="background-equipo">
         <div class="row principal-row">
             <div class="team-row">
-                <img id="Clara" class="circle img-team first-img z-depth-4" data-position="bottom" data-delay="50" 
+                <img id="Clara" class="circle img-team first-img z-depth-4" data-position="center" data-delay="50" 
                 src="./img/Claris.jpg" alt="">
-                <h2>Clara Salazar Posada</h2>
+                <div class="name center" for="Clara">
+                     Clara Salazar Posada
+                </div>
+                <div class="cargo" data-language="directora">
+                    Directora General
+                </div>
+                <div class="correo">
+                    clara.salazar@voce.com.co
+                </div>     
             </div>
             <div class="team-row2">
-                <img class="circle img-team second-img z-depth-4" data-position="bottom" data-delay="50" 
+                <img class="circle img-team second-img z-depth-4" data-position="center" data-delay="50" 
                 src="./img/Aleja.jpg" alt="">
-                <h2>Alejandra Rojas Echeverry</h2>
+                <div class="namea">Alejandra Rojas Echeverry
+                </div>
+                <div class="cargoa" data-language="cargo">Equipo de soluciones
+                </div>
+                <div class="correoa">alejandra.rojas@voce.com.co
+                </div>     
             </div>
            <div class="team-row3">
-                <img class="circle img-team third-img z-depth-4" data-position="bottom" data-delay="50" 
+                <img class="circle img-team third-img z-depth-4" data-position="center" data-delay="50" 
                  src="./img/Me.jpg" alt="">
-                <h2>Melina Mejía Bedoya</h2>
+                 <div class="namem">Melina Mejía Bedoya
+                </div>
+                <div class="cargom" data-language="cargo">Equipo de soluciones
+                </div>
+                <div class="correom">melina.mejia@voce.com.co
+                </div>     
            </div>
            <div class="team-row4">
-                <img class="circle img-team fourth-img z-depth-4" data-position="bottom" data-delay="50" 
+                <img class="circle img-team fourth-img z-depth-4" data-position="center" data-delay="50" 
                 src="./img/Dani.jpg" alt="">
-                <h2>Daniel Vélez Marín</h2>
+                <div class="named">Daniel Vélez Marín
+                </div>
+                <div class="cargod" data-language="cargo">Equipo de soluciones
+                </div>
+                <div class="correod">daniel.velez@voce.com.co
+                </div>     
            </div>
            <!-- <img class="circle img-team fourth-img z-depth-4 tooltipped" data-position="bottom" data-delay="50" 
                 data-tooltip="Daniel Velez Marín" src="./img/Dani.jpg" alt="">-->
         </div>
-        <div class="row col s12 linked-row">
+        <!--<div class="row col s12 linked-row">
             <div class="col s4">
                 <a href="https://www.linkedin.com/in/clara-m%C3%B3nica-salazar-posada-068371128/" target="_blank">
                 <img class="img-linked" src="./img/linkedin.png" alt=""></a>
@@ -253,7 +341,7 @@
                 <a href="https://www.linkedin.com/in/daniel-v%C3%A9lez-mar%C3%ADn-546477126/" target="_blank">
                 <img class="img-linked" src="./img/linkedin.png" alt=""></a>
             </div>
-        </div>
+        </div>-->
     </div>
 
     <!-- Parallax -->
@@ -266,23 +354,23 @@
         <div class="container">
             <div class="row">
                 <div class="col l4 s12">
-                    <h5 class="white-text li-text">Encuéntranos</h5>
+                    <h5 class="white-text li-text" data-language="find">Encuéntranos</h5>
                     <ul>
                         <li><p class="footer-find-us grey-text text-lighten-3 leelawadee">Tel. (57-4) 322-44-69</p></li>
-                        <li><p class="footer-find-us grey-text text-lighten-3 leelawadee">Cra 48 # 20 -103. Segundo Piso</p></li>
+                        <li><p class="footer-find-us grey-text text-lighten-3 leelawadee" data-language="floor">Cra 48 # 20 -103. Segundo Piso</p></li>
                         <li><p class="footer-find-us grey-text text-lighten-3 leelawadee">Medellín - Colombia</p></li>
                     </ul>
                     <img class="img-footer" src="./img/voce.jpg" alt="">
                 </div>
                 <div class="col l6 offset-l2 s12">
-                    <h5 class="white-text li-text center">Contáctanos</h5>
+                    <h5 class="white-text li-text center" data-language="contact-us">Contáctanos</h5>
                     <div class="row ">
                         <form class="col s12">
                             <div class="row">
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">person</i>
                                     <input id="nombre" type="text" class="validate">
-                                    <label for="nombre">Nombre</label>
+                                    <label for="nombre" data-language="name">Nombre</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">email</i>
@@ -294,23 +382,23 @@
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix">message</i>
                                     <textarea id="mensaje" class="materialize-textarea"></textarea>
-                                    <label for="mensaje">Mensaje</label>
+                                    <label for="mensaje" data-language="message">Mensaje</label>
                                 </div>
                             </div>
                             <div class="row center">
-                                <button class="waves-effect waves-light btn btn-enviar">Enviar</button>
+                                <button class="waves-effect waves-light btn btn-enviar" data-language="send">Enviar</button>
                             </div>
                         </form>
                     </div>
                     <div class="row center">
-                        <span class="demo-title">Solicita una demostración</span>
-                        <button class="waves-effect waves-light btn btn-demo">Clic Aquí</button>
+                        <span class="demo-title" data-language="demo">Solicita un demo</span>
+                        <button class="waves-effect waves-light btn btn-demo" data-language="clic">Clic Aquí</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
-            <div class="container">
+            <div class="container" data-language="footer">
             Hecho con ♥ en Medellín © 2018
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
@@ -324,5 +412,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script type="text/javascript" src="./js/materialize.min.js"></script>
 <script src="./js/script.js"></script>
-
+<script src="./js/language.js"></script>
 </html>

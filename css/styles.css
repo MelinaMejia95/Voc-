@@ -213,7 +213,7 @@ html, body{
 }
 
 .img-swipe{
-    margin-top: 4%;
+    margin-top: 9%;
 }
 
 .carousel .carousel-item>img {
@@ -310,6 +310,14 @@ html, body{
     height: 5px;
     z-index: -1;
     margin-top: 4em;
+    margin-bottom: -2em;
+    background-color: #2f393f;
+}
+
+.q-line-nosotros{
+    height: 5px;
+    z-index: -1;
+    margin-top: 3em;
     margin-bottom: -2em;
     background-color: #2f393f;
 }
@@ -422,7 +430,7 @@ html, body{
 .cargo{
     top: 31%;
     /* left: 1%; */
-    padding-left: 5% !important;
+    padding-left: 6% !important;
     font-size: 1em !important;
     align-content: center !important;
     padding-left: 4%;
@@ -430,7 +438,7 @@ html, body{
 
 .correo{
     top: 40%;
-    padding-left: 4% !important;
+    padding-left: 4.5% !important;
     font-size: 1em !important;
     align-content: center !important;
 }
@@ -447,15 +455,15 @@ html, body{
 .cargoa{
     top: 31%;
     /* left: 1%; */
-    padding-left: 6.5% !important;
+    /*padding-left: 6.5% !important;*/
     font-size: 1em !important;
     align-content: center !important;
-    padding-left: 7.5% !important;
+    padding-left: 9% !important;
 }
 
 .correoa{
     top: 40%;
-    padding-left: 5% !important;
+    /*padding-left: 5% !important;*/
     font-size: 1em !important;
     align-content: center !important;
     padding-left: 6.5%  !important;
@@ -464,7 +472,7 @@ html, body{
 .namem{
     top: 20%;
     text-align: center;
-    padding-left: 5% !important;
+    padding-left: 5.5% !important;
     align-content: center;
     font-size: 1.3em !important;
     font-weight: bold;
@@ -474,7 +482,7 @@ html, body{
     top: 31%;
     font-size: 1em !important;
     align-content: center !important;
-    padding-left: 7.5% !important;
+    padding-left: 8.5% !important;
 }
 
 .correom{
@@ -487,7 +495,7 @@ html, body{
 .named{
     top: 20%;
     text-align: center;
-    padding-left: 5% !important;
+    padding-left: 6% !important;
     align-content: center;
     font-size: 1.3em !important;
     font-weight: bold;
@@ -497,7 +505,7 @@ html, body{
     top: 31%;
     font-size: 1em !important;
     align-content: center !important;
-    padding-left: 7.5% !important;
+    padding-left: 8.5% !important;
 }
 
 .correod{
@@ -693,10 +701,10 @@ textarea.materialize-textarea:focus:not([readonly]){
 }
 
 .voce{
-    width: 250px;
+    width: 200px;
     height: 250px;
     /* margin-right: 9%; */
-    margin-top: 6%;
+    margin-top: 14%;
     /* margin-left: -9%; */
 }
 
@@ -705,14 +713,14 @@ textarea.materialize-textarea:focus:not([readonly]){
     height: 14em;
     /*margin-right: 8%;
     margin-top: 3%;*/
-    margin-top: 6%;
+    margin-top: 28%;
 }
 
 .span-text {
-    margin-top: 3%;
-    width: 26% !important;
+    margin-top: 4%;
+    width: 30% !important;
     text-align: justify;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .span-voce{
@@ -720,14 +728,17 @@ textarea.materialize-textarea:focus:not([readonly]){
 }
 
 .swipe-text{
-    font-size: 2em;
+    font-size: 17px;
+    display: flex;
 }
 
 .swipe-col{
     margin: auto;
-    margin-top: 5%;
-    padding-left: 3em;
-    text-align: center;
+    margin-top: 2%;
+    margin-left: 7% !important;
+    text-align: left;
+    font-size: 15px;
+    width: 27% !important;
 }
 
 .swipe-col-ex{
@@ -737,6 +748,40 @@ textarea.materialize-textarea:focus:not([readonly]){
     text-align: center;
 }
 
+.row-swipe{
+    margin-bottom: 4% !important;
+}
+
+.swipe-img-span{
+    margin-left: 4% !important;
+}
+
 .img-voce {
-    margin-right: 4%;
+    margin-right: 0%;
+    margin-left: 3% !important;
+}
+
+.btn-qualtrics{
+    border-radius: 2em !important;
+    margin-left: 1em;
+    background-color: #c42625 !important;
+    color: white !important;
+    margin-top: 16%;
+}
+
+.icon-swipe {
+    vertical-align: middle;
+}
+
+.swipe-col-icon{
+    display: flex;
+    line-height: 1em;
+}
+
+.span-img{
+    display: -webkit-box;
+    vertical-align: middle;
+    margin-left: 1%;
+    margin-bottom: auto;
+    margin-top: auto;
 }

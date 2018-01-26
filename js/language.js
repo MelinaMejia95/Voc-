@@ -6,7 +6,7 @@ var language_configurarion = {
         'clients': 'Clients',
         'team': 'Team',
         'contact': 'Contact',
-        'qualtrics1': '"Turn employess into ambassadors"',
+        'qualtrics1': '"Turn employees into ambassadors"',
         'qualtrics2': '"Turn a brand into a religion"',
         'qualtrics3': '"Turn customers into fanatics"',
         'qualtrics4': '"Turn a product into an obsession"',
@@ -21,7 +21,9 @@ var language_configurarion = {
         'who': 'ABOUT US',
         'we-are-qualtrics': `Qualtrics is the world leader in Insight management for markets, clients and employees. 
         Created at 2002, was born as a Market research survey tool and today is the leader solution to manage all the experience, helping organizations to create and deploy experience programs focusing in Brand, client, products/services and the employees`,
-        'we-are-voce': `We count with the trayectory and training from Qualtrics, we also add to every Project local professionals with great experience in each consulting case as required (Clients Experience, Employee Experience, Brand Experience or Product Experience) Our HQ is located in Medellín but we can move across all LATAM.`,
+        'we-are-voce': `Qualtrics partner in Colombia.<br>
+        Officially certified for tools implementation and managament. First-line local support in Colombia<br>
+        We count with the trayectory and training from Qualtrics, we also add to every Project local professionals with great experience in each consulting case as required (Clients Experience, Employee Experience, Brand Experience or Product Experience) Our HQ is located in Medellín but we can move across all LATAM.`,
         'serv': 'SERVICES',
         'serv1': 'CLIENT',
         'serv2': 'EMPLOYEE',
@@ -39,11 +41,11 @@ var language_configurarion = {
         'name': 'Name',
         'message': 'Message',
         'send': 'Send',
-        'demo': 'Ask for a demo',
+        'demo': 'Request Demo',
         'clic': 'Click here',
         'footer': 'Made with ♥ in Medellín © 2018',
         'directora': 'General Director',
-        'cargo': 'Solutions Team'
+        'cargo': 'Solutions Team',
     },  
     'es': { 
         'adn': 'Nuestro ADN',
@@ -71,7 +73,9 @@ var language_configurarion = {
         'we-are-qualtrics': `Qualtrics es la empresa líder mundial en medición de Insights de clientes, empleados y mercados.
         Creada desde el 2002, nació como un software para medición de investigación de mercados, y hoy se convierte en la solución líder en gestionar toda la experiencia, ayudando a las organizaciones a crear y poner en marcha sus programas de experiencia desde la visión de la marca, los clientes, los productos o servicios y los empleados.
         `,
-        'we-are-voce': `Contamos con todo el entrenamiento y trayectoria de Qualtrics, y sumamos a cada proyecto, profesionales locales con amplia experiencia en cada caso de consultoría requerido en cualquiera de los proyectos de clientes (Experiencia de clientes, Experiencia de empleados, Experiencia de marca o Experiencia de producto) Nuestra sucursal principal está ubicada en Medellín, pero contamos con la Capacidad para movernos en todo el territorio Latinoamericano`,
+        'we-are-voce': `Partner de Qualtrics en Colombia.<br>
+        Certificados  oficialmente para implementación y manejo de las herramientas. Soporte local en Colombia de primera línea.<br> 
+        Contamos con todo el entrenamiento y trayectoria de Qualtrics, y sumamos a cada proyecto, profesionales locales con amplia experiencia en cada caso de consultoría requerido en cualquiera de los proyectos de clientes (Experiencia de clientes, Experiencia de empleados, Experiencia de marca o Experiencia de producto) Nuestra sucursal principal está ubicada en Medellín, pero contamos con la Capacidad para movernos en todo el territorio Latinoamericano.`,
         'serv': 'SERVICIOS',
         'serv1': 'CLIENTE',
         'serv2': 'EMPLEADO',
@@ -93,7 +97,8 @@ var language_configurarion = {
         'clic': 'Clic aquí',
         'footer': 'Hecho con ♥ en Medellín © 2018',
         'directora': 'Directora General',
-        'cargo': 'Equipo de soluciones'
+        'cargo': 'Equipo de soluciones',
+        'li-1': 'Medición de Omni-canal'
     }
 }
 
